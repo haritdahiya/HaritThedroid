@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+        <android.support.v7.widget.AppCompatCheckBox
+            app:buttonTint="@color/textColorPrimary"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Website"
+            android:id="@+id/wb"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+
+        <android.support.v7.widget.AppCompatCheckBox
+
+            app:buttonTint="@color/textColorPrimary"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Social"
+            android:id="@+id/smd"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/view5"/>
+
+
+
+        <android.support.v7.widget.AppCompatCheckBox
+            app:buttonTint="@color/textColorPrimary"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Outdoor"
+            android:id="@+id/outdor"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/wb"
+            />
+
+
+
+
+        <android.support.v7.widget.AppCompatCheckBox
+            app:buttonTint="@color/textColorPrimary"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Radio"
+            android:id="@+id/radio"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+           android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/view5"
+            android:layout_below="@+id/smd"/>
+
+
+
+
+    <android.support.v7.widget.AppCompatCheckBox
+        app:buttonTint="@color/textColorPrimary"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Television"
+        android:id="@+id/tv"
+        android:layout_below="@+id/outdor"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+    <android.support.v7.widget.AppCompatCheckBox
+        app:buttonTint="@color/textColorPrimary"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Print Media"
+        android:id="@+id/printmd"
+        android:layout_below="@+id/radio"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/view5"/>
+
+    <android.support.v7.widget.AppCompatCheckBox
+        app:buttonTint="@color/textColorPrimary"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speciality"
+        android:id="@+id/spec"
+        android:layout_below="@+id/tv"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:layout_toRightOf="@+id/view5"
+        app:buttonTint="@color/textColorPrimary"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cell Phone"
+        android:id="@+id/celpn"
+        android:layout_below="@+id/printmd"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/smd"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#d3d3d3"
+        android:id="@+id/view1" />
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/outdor"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#d3d3d3"
+        android:id="@+id/view2" />
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tv"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#d3d3d3"
+        android:id="@+id/view3" />
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/spec"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#d3d3d3"
+        android:id="@+id/view4" />
+    <View
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_alignRight="@+id/tv"
+        android:layout_width="1dip"
+        android:layout_height="fill_parent"
+        android:background="#d3d3d3"
+        android:id="@+id/view5" />
+</RelativeLayout>
